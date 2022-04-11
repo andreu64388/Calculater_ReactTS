@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
+
+.App {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.App .calculator {
+  border-radius: 20px;
+  height: 380px;
+  padding: 10px;
+  width: 300px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+.App .calculator .calculator-display {
+  flex: 1;
+  color: white;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.App .calculator .calculator-display .display-value {
+  overflow: hidden;
+  width: 100%;
+  height: 60px;
+  border-radius: 20px;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+}
+.App .calculator .calculator-keypad {
+  padding: 10px;
+  flex: 3;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  gap: 10px;
+}
+.App .calculator .calculator-keypad .btn {
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  outline: 2px solid black;
+  border-radius: 10px;
+}
+.App .calculator .calculator-keypad .btn:hover {
+  background-color: gray;
+}
+.App .calculator .calculator-keypad .btn.clear {
+  background-color: #ff0000;
+}
+.App .calculator .calculator-keypad .btn.equal {
+  background-color: #00ff00;
+}/*# sourceMappingURL=App.css.map */
