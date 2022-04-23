@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/https//andreu64388.github.io/Calculater_ReactTS/static/css/main.7e7d77b5.css",
+    "main.js": "/https//andreu64388.github.io/Calculater_ReactTS/static/js/main.a96a68f9.js",
+    "index.html": "/https//andreu64388.github.io/Calculater_ReactTS/index.html",
+    "main.7e7d77b5.css.map": "/https//andreu64388.github.io/Calculater_ReactTS/static/css/main.7e7d77b5.css.map",
+    "main.a96a68f9.js.map": "/https//andreu64388.github.io/Calculater_ReactTS/static/js/main.a96a68f9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7e7d77b5.css",
+    "static/js/main.a96a68f9.js"
+  ]
+}
